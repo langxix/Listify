@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #212121;
+  color: whitesmoke;
+  flex-direction: column;
+}
+
+
+
+.main-header{
+font-family: 'Mostserrat', sans-serif;  
+color: red;
+
+}
+
+.create-form label{
+  color: black !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
+
+/* App.css */
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-header {
+  text-align: center;
+}
+
+.nav {
+  padding: 2px;
+  border-radius: 2px;
+  border-bottom: #212121;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  /* color: #007bff; */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: red;
+}
+
+.home-content {
+  margin-top: 20px;
+}
+
+.home-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* App.css */
+
+  /* Delete Button */
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+
+  /* Update Button */
+  .update-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .update-button:hover {
+    background-color: #0056b3;
+  }
+
+  .create-button {
+    background-color: #007bff; /* Blue background color */
+    color: #ffffff; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+  }
+  
